@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#adafba</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="imageViewBackground">#68bf8f</color>
+    <color name="holderBackground">#ff8c00</color>
+    <color name="holderBackgroundDark">#49b401</color>
+    <color name="alertBackground">#ff506a</color>
+    <color name="textDark">#111111</color>
+    <color name="textLight">#FFFFFF</color>
+    <color name="client">#37783b</color>
+    <color name="merch">#233d6c</color>
+</resources>

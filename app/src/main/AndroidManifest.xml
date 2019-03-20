@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.noke.purchase">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewClientActivity"
+            android:label="@string/new_client_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity
+            android:name=".NewMerchActivity"
+            android:label="@string/new_merch_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity
+            android:name=".NewOrderActivity"
+            android:label="@string/new_order_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity
+            android:name=".NewPurchaseActivity"
+            android:label="@string/new_purchase_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity
+            android:name=".ChangeClientActivity"
+            android:label="@string/edit_client_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity
+            android:name=".ChangePurchaseActivity"
+            android:label="@string/edit_purchase_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity
+            android:name=".ChangeMerchActivity"
+            android:label="@string/edit_merch_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity
+            android:name=".ChangeOrderActivity"
+            android:label="@string/edit_order_title"
+            android:theme="@style/MyDialogTheme" />
+        <activity android:name=".ClientListActivity" />
+        <activity android:name=".PurchaseListActivity" />
+        <activity android:name=".MerchListActivity" />
+        <activity android:name=".OrderListActivity" />
+        <activity
+            android:name=".PreferenceActivity"
+            android:label="@string/action_settings"
+            android:theme="@style/MyDialogTheme"/>
+
+        <!--
+            <activity
+            android:name=".AllListActivity"
+            android:label="@string/title_activity_all_list" />
+        -->
+    </application>
+
+</manifest>

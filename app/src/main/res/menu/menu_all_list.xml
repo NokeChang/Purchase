@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.noke.purchase.PurchaseListActivity">
+    <!--<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />-->
+
+    <!--<item android:id="@+id/action_search"
+        android:title="test search"
+        android:icon="@drawable/purchase"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />-->
+
+    <item
+        android:id="@+id/action_add"
+        android:title="Add"
+        android:icon="@drawable/ic_action_add"
+        app:showAsAction="ifRoom" />
+    <!--<item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_action_delete"
+        app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/action_renew"
+        android:title="Renew"
+        android:icon="@drawable/ic_action_renew"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/numberTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/numberTitleTextView"
+            android:text="@string/number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/itemTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/itemTitleTextView"
+            android:text="@string/merch" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/quantityTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/quantityTitleTextView"
+            android:text="@string/quantity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/priceTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/priceTitleTextView"
+            android:text="@string/price" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/dateTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/dateTitleTextView"
+            android:text="@string/date" />
+    </LinearLayout>
+</LinearLayout>

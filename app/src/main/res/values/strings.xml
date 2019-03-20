@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Order System</string>
+    <string name="edit_client_title">Edit Client</string>
+    <string name="new_client_title">New Client</string>
+    <string name="edit_merch_title">Edit Merch</string>
+    <string name="new_merch_title">New Merch</string>
+    <string name="edit_purchase_title">Edit Purchase</string>
+    <string name="new_purchase_title">New Purchase</string>
+    <string name="edit_order_title">Edit Order</string>
+    <string name="new_order_title">New Order</string>
+    <string name="main_title_merch">Merch</string>
+    <string name="main_title_client">Client</string>
+    <string name="main_title_purchase">Purchase</string>
+    <string name="main_title_order">Order</string>
+    <string name="hint_search_item">item..</string>
+    <string name="hint_search_name">name..</string>
+    <string name="hint_search_date">date..</string>
+    <string name="action_settings">settings</string>
+    <string name="settings_text_low_stock">Low Stock</string>
+    <string name="button_save">save</string>
+    <string name="name">Name</string>
+    <string name="region">Region</string>
+    <string name="consumption">Consumption</string>
+    <string name="item">Item</string>
+    <string name="stock">Stock</string>
+    <string name="surplus">Surplus</string>
+    <string name="purchase_qty">QtyPurchase</string>
+    <string name="order_qty">QtyOrder</string>
+    <string name="outcome">Outcome</string>
+    <string name="income">Income</string>
+    <string name="number">No.</string>
+    <string name="client">Client</string>
+    <string name="merch">Merch</string>
+    <string name="date">Date</string>
+    <string name="price">Price</string>
+    <string name="quantity">Qty</string>
+    <string name="remark">Remark</string>
+
+    <string name="sure">sure</string>
+    <string name="cancel">cancel</string>
+    <string name="notification">Notification</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="toast_input_again">please re-input your %1$s</string>
+    <string name="toast_input_again_2">please re-input your %1$s or %2$s</string>
+    <string name="toast_update_done">update successfully</string>
+    <string name="toast_cannot_repeat">%1$s is not repeatable</string>
+    <string name="toast_add_done">record storage completed</string>
+    <string name="toast_add_failed">record storage failed</string>
+    <string name="toast_delete_done">delete successfully</string>
+    <string name="toast_create_advance">please create %1$s in advance</string>
+    <string name="toast_create_advance_2">please create %1$s and %2$s in advance</string>
+</resources>

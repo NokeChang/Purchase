@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/photoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/itemTextView"
+            android:textSize="18sp"/>
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/itemTitleTextView"
+            android:text="@string/item" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/stockQtyTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/stockQtyTitleTextView"
+            android:text="@string/stock" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/surplusTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/surplusTitleTextView"
+            android:text="@string/surplus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/purchaseQtyTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/purchaseQtyTitleTextView"
+            android:text="@string/purchase_qty" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/orderQtyTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/orderQtyTitleTextView"
+            android:text="@string/order_qty" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/outcomeTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/outcomeTitleTextView"
+            android:text="@string/outcome" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/incomeTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/incomeTitleTextView"
+            android:text="@string/income" />
+    </LinearLayout>
+</LinearLayout>

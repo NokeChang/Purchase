@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/nameTextView"
+            android:textSize="18sp" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/nameTitleTextView"
+            android:text="@string/name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/localeTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/localeTitleTextView"
+            android:text="@string/region" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DataText"
+            android:id="@+id/spentTextView" />
+
+        <TextView
+            style="@style/TitleText"
+            android:id="@+id/spentTitleTextView"
+            android:text="@string/consumption" />
+    </LinearLayout>
+</LinearLayout>
